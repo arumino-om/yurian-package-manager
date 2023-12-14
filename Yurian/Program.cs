@@ -6,3 +6,14 @@
     Console.WriteLine("  install, uninstall, search, list, add-to-env");
 }
 
+if (args.Length == 0)
+{
+    Help();
+    return;
+}
+
+switch (args[0])
+{
+    case "install":
+        break;
+}
